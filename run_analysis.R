@@ -1,3 +1,9 @@
+###########################
+# This script was developed by Alejandro Arroyave Buritica as course project for 
+# the coursera Getting and cleaning data course by jeff leek (getdata-011).
+# https://github.com/alejarbu/getting-cleaning-data/
+###########################
+
 library(tidyr)
 library(dplyr)
 library(data.table)
