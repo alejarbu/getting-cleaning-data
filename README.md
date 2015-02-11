@@ -12,7 +12,7 @@ The purpose of this project is to prepare tidy data that can be used for later a
 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 ## How to run the script
-1. Download the ```run_analysis.R``` script and copy it in the parent folder of UCI HAR Dataset, then set the parent folder as your working directory using ```setwd()``` function.
+1. Download the ```run_analysis.R``` script and copy it in the parent folder of ```UCI HAR Dataset```, then set the parent folder as your working directory using ```setwd()``` function.
   The directory structure have to look similar to:
 
         parent folder/
