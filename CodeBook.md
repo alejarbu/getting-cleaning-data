@@ -14,7 +14,7 @@ The raw data to be cleaned up represents data collected from the accelerometers 
 
 The experiments have been carried out with a group of 30 volunteers within an age bracket of 19-48 years. Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist. Using its embedded accelerometer and gyroscope, we captured 3-axial linear acceleration and 3-axial angular velocity at a constant rate of 50Hz. The experiments have been video-recorded to label the data manually.
 
-Note: more info about files and experiments development, go to the ```README.txt``` file under ```UCI HAR Dataset``` folder
+Note: more info about files and experiments development, go to the ```README.txt``` file under ```UCI HAR Dataset``` folder.
 
 ### Processing the data
 
@@ -51,3 +51,29 @@ To acomplish this goal the function uses the [gsub] function to find a replace s
 [gsub]:http://stat.ethz.ch/R-manual/R-devel/library/base/html/grep.html
 
 ## Code Book
+This project generates two output files ```finaldata.txt``` and ```finaldata_summarized.txt```.
+
+### ```finaldata.txt``` 
+This is a CSV file which contains the data set corresponding to the first four project requirements with only the measurements on the mean and standard deviation for each measurement.
+
+This data set contains 68 variables and 10299 observations.
+
+The variables are:
+
+1. Activity: Descriptive label of activity
+2. Subject: Test subject id
+
+Variables 3 to 68 are features which ones are described in the ```features_info.txt``` file under ```UCI HAR Dataset``` folder.
+
+### ```finaldata_summarized.txt``` 
+This is a CSV file which contains the independent tidy data set with the average of each variable for each activity and each subject.
+
+This data set contains 68 variables and 180 observations.
+
+The variables are:
+
+1. Activity: Descriptive label of activity
+2. Subject: Test subject id
+
+Variables 3 to 68 are features which ones are described in the ```features_info.txt``` file under ```UCI HAR Dataset``` folder.
+
