@@ -1,7 +1,7 @@
 Getting and cleaning data course project
 =====================
 
-Note: This project was developed as assigment for the coursera Getting and cleaning data course by jeff leek (getdata-011). 
+Note: This project was developed by Alejandro Arroyave Buritica as assigment for the coursera Getting and cleaning data course by jeff leek (getdata-011). 
 
 The purpose of this project is to prepare tidy data that can be used for later analysis with the following requirements:
 
