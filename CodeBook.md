@@ -1,7 +1,7 @@
 Samsung wearable data set
 =====================
 
-Note: This code book was made by Alejandro Arroyave Buritica as course project code book for the coursera Getting and cleaning data course by jeff leek (getdata-011).
+Note: This code book was made by Alejandro Arroyave Buritica as course project code book for the coursera Getting and cleaning data course by jeff leek.
 
 This code book describes the variables, the data and any transformations or work that was performed to clean up the Samsung wearable data set.
 
